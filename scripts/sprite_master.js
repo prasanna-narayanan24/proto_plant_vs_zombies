@@ -142,17 +142,17 @@ class SpriteMaster {
 
   loadZombieAnimations() {
     for (let i = 0; i <= 7; i++) {
-      this.zombieWalkAnimations.push(loadImage(`assets/zombies/child_zombie/walk/__Zombie01_Walk_00${i}.png`));
+      this.zombieWalkAnimations.push(loadImage(`assets/zombies/child_zombie/walk/Zombie01_Walk_00${i}.png`));
     }
 
     for (let i = 0; i <= 11; i++) {
       const fileNumber = padInt(i);
-      this.zombieAttackAnimations.push(loadImage(`assets/zombies/child_zombie/attack/__Zombie01_Attack_0${fileNumber}.png`));
+      this.zombieAttackAnimations.push(loadImage(`assets/zombies/child_zombie/attack/Zombie01_Attack_0${fileNumber}.png`));
     }
 
     for (let i = 0; i <= 7; i++) {
       const fileNumber = padInt(i);
-      this.zombieDieAnimations.push(loadImage(`assets/zombies/child_zombie/die/__Zombie01_Die_0${fileNumber}.png`));
+      this.zombieDieAnimations.push(loadImage(`assets/zombies/child_zombie/die/Zombie01_Die_0${fileNumber}.png`));
     }
 
 
